@@ -34,19 +34,21 @@ go install mvdan.cc/garble@latest
 
 参数解释：
 
-  garble(混淆库)：-tiny                    删除额外信息
-
+  garble(混淆库)：
+                          -tiny                    删除额外信息
+                          
                           -literals               混淆文字
 
-                        -seed=random   base64编码的随机种子 
+                          -seed=random   base64编码的随机种子 
 
-  go：-w                        去掉调试信息，不能gdb调试了
+  go：
+        -w                        去掉调试信息，不能gdb调试了
 
-       -s                         去掉符号表
+        -s                         去掉符号表
 
-       -H windowsgui    隐藏执行窗口，不占用 cmd 终端。 （被查杀率高）
+        -H windowsgui    隐藏执行窗口，不占用 cmd 终端。 （被查杀率高）
 
-       -race                    使数据允许竞争检测
+        -race                    使数据允许竞争检测
 
 编译后得到go-sc.exe
 
