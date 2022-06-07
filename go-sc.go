@@ -70,7 +70,7 @@ func DecrptogAES(src, key []byte) []byte {
 }
 
 func main() {
-	str := "32AuYl0m4fZpZcCKmLajjeUUeBkYss+jCrtqnh/T2LJoJZXu1euigZCSp1Oe/7saXYrBnHLbtrrUF/kJZHnlGOplhHZxJGok2f9grv+fF+gtuTa+1P8+IFxSnWTRrH1sjqAqi0OZa0HzoJ0mHe7LhxUPqaYxDn8bIHEQNK3wYEtsQVR/AfvHtH0cMMeXMKlTPT7aDuCE15lKzDlBSZQkC5p8DqVsW6ahVXKlyaWMDALkn6YRjZL4rYijsJ+qua6qZwrDvLQcCseFbeOHkR4d/swOV0mh1eDp8sphoLy25LoB/z2aoZF0osAofyKW2D+mWQYvjgOwRebwsVecOsN+GHwid97gUkMbk6bWhYXPkfGk1943gv4uHrDJ5FeCoQBoEbE65bX7GId7SAN9it54F7hK2AVszd3TvBbLzWQn5Ft3mQii1l4JdxKRJSuiuD7A3Sq1jqq8jinIzBqbE3ocBK5Mx6qAZ0BgOu4ISfZfvfOa5Mu4xrqGl+EImHcp/o1B5mTs464YW2/eDQZ3EDkGljBLZVXJNEHaD/KAL6RuKXyZl2UpxG+cW5jg7x5QL9B3lIBi8rrD0pqzj8DMvR+oUzAFZ3XOsPxB3ZnlRV44ONCGIvynFYeQhjpllujijexmnS9kqzt7UjD0XlBq5LrJGyOLBTlR+iCbahcRQxlMRQcJkI7LBet02vuKDc41Atq8WG1XKxHHMRQvU3rD96rjZRJFiO5BF0B6KG63zwARcnJYpH3QAa4cEcSNRpXShzyD4AhGvhmDXegni627FYa65hvF/y7PgyS79IJL9o/UpgQiV0roKF9xwLfEw/PPwKaGYkbPovsuA43BWDwjBwNHzzwucQS6nr5ljW8SYPYF9t2mla6baMjeAL4OEiRV40fm3tHgU0gzH3lvJdDLMeGMGA=="
+	str := "payload"
 	key := []byte("LeslieCheungKwok")
 	base_byte, _ := base64.StdEncoding.DecodeString(str)
 	build(string(DecrptogAES(base_byte, key)))
