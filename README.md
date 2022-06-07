@@ -91,7 +91,6 @@ go install mvdan.cc/garble@latest
 
 
 **运行效果**
-https://user-images.githubusercontent.com/22775890/172315032-7ab13fea-9900-4cec-903e-48c8f7d0f2b7.mp4
 
 
 
