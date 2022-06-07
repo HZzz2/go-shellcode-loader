@@ -1,7 +1,8 @@
 # go-shellcode-loader
 
 GO混淆免杀shellcode加载器AES加密
-过DF、360和火绒
+
+混淆反检测 过DF、360和火绒
 
 
 #### 获取项目
