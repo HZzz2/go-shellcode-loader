@@ -35,6 +35,7 @@ go install mvdan.cc/garble@latest
 参数解释：
 
   garble(混淆库)：
+                          
                           -tiny                    删除额外信息
                           
                           -literals               混淆文字
