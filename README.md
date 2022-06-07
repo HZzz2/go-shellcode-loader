@@ -99,4 +99,5 @@ go install mvdan.cc/garble@latest
 https://user-images.githubusercontent.com/22775890/172315782-707cfbbb-90ed-4156-97d8-dcaf0da8a554.mp4
 
 
-
+## 免责声明
+仅供安全研究与教学之用，如果使用者将其做其他用途，由使用者承担全部法律及连带责任，本人不承担任何法律及连带责任。
