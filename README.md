@@ -1,6 +1,8 @@
 # go-shellcode-loader
 
-GO免杀shellcode加载器
+GO混淆免杀shellcode加载器AES加密
+
+
 
 #### 获取项目
 
