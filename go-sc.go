@@ -75,6 +75,3 @@ func main() {
 	base_byte, _ := base64.StdEncoding.DecodeString(str)
 	build(string(DecrptogAES(base_byte, key)))
 }
-
-//go install github.com/unixpickle/gobfuscate@latest   不知道咋用
-//go install mvdan.cc/garble@latest
