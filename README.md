@@ -43,6 +43,7 @@ go install mvdan.cc/garble@latest
                           -seed=random   base64编码的随机种子 
 
   go：
+        
         -w                        去掉调试信息，不能gdb调试了
 
         -s                         去掉符号表
