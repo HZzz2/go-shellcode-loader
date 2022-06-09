@@ -53,7 +53,7 @@ go install mvdan.cc/garble@latest
 
         -H windowsgui    隐藏执行窗口，不占用 cmd 终端。 （被查杀率高）
 
-        -race                    使数据允许竞争检测
+        -race                    使数据允许竞争检测，编译时改变了生成后的文件特征， 使得杀软无法检测，当然有一天也会失效的。
 
 编译后得到go-sc.exe
 
