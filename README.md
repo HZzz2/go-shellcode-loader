@@ -27,7 +27,7 @@ go install mvdan.cc/garble@latest
 
 运行aes-sc.go生成AES加密后的值
 
-`go run aes-sc.go`
+`go run aes_sc.go`
 
 复制输出的值到go-sc.go中的73行替换payload
 
