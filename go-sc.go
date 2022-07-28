@@ -43,19 +43,8 @@ func UnPaddingText1(str []byte) []byte {
 	return newPaddingText
 }
 
-//---------------DES加密  解密--------------------
-func EncyptogAES(src, key []byte) []byte {
-	block, err := aes.NewCipher(key)
-	if err != nil {
-		fmt.Println(nil)
-		return nil
-	}
-	src = PaddingText1(src, block.BlockSize())
-	blockMode := cipher.NewCBCEncrypter(block, key)
-	blockMode.CryptBlocks(src, src)
-	return src
+//---------------DES解密--------------------
 
-}
 
 func DecrptogAES(src, key []byte) []byte {
 	block, err := aes.NewCipher(key)
