@@ -14,6 +14,16 @@ func CheckError(err error) {
 	}
 }
 
+//填充字符串（末尾）
+func PaddingText1(str []byte, blockSize int) []byte {
+	//需要填充的数据长度
+	paddingCount := blockSize - len(str)%blockSize
+	//填充数据为：paddingCount ,填充的值为：paddingCount
+	paddingStr := bytes.Repeat([]byte{byte(paddingCount)}, paddingCount)
+	newPaddingStr := append(str, paddingStr...)
+	//fmt.Println(newPaddingStr)
+	return newPaddingStr
+}
 
 //---------------DES加密  解密--------------------
 func EncyptogAES(src, key []byte) []byte {
