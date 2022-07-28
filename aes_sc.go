@@ -40,7 +40,9 @@ func EncyptogAES(src, key []byte) []byte {
 }
 
 func main() {
+	//payload替换
 	str := "payload"
+	//密钥长度16
 	key := []byte("LeslieCheungKwok")
 	src := EncyptogAES([]byte(str), key)
 	base64Str := base64.StdEncoding.EncodeToString(src)
